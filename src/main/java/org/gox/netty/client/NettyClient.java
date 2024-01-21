@@ -8,6 +8,10 @@ import io.netty.channel.EventLoopGroup;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioSocketChannel;
+import org.gox.netty.client.decoder.ResponseDataDecoder;
+import org.gox.netty.client.encoder.PlayerConnectionRequestDataEncoder;
+import org.gox.netty.client.encoder.PlayerUpdateRequestDataEncoder;
+import org.gox.netty.client.handler.ClientHandler;
 
 public class NettyClient {
 

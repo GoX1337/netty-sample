@@ -1,4 +1,6 @@
-package org.gox.netty.server;
+package org.gox.netty.server.core;
+
+import org.gox.netty.entity.Player;
 
 public class GameServer {
 

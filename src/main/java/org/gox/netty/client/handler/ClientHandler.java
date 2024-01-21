@@ -1,4 +1,4 @@
-package org.gox.netty.client;
+package org.gox.netty.client.handler;
 
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.ChannelInboundHandlerAdapter;
